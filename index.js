@@ -25,7 +25,7 @@ client.on('message', async (message) => {
         var str = "";
         str += ' '.repeat(50);
         const exampleEmbed = new MessageEmbed()
-            .setTitle(`**Rating <:null:850462447420440616><:null:850462447420440616><:null:850462447420440616><:null:850462447420440616><:null:850462447420440616> **`) //ايموجي نجمة فارغة5
+            .setTitle(`**Rating <:null:850462447420440616><:null:850462447420440616><:null:850462447420440616><:null:850462447420440616><:null:850462447420440616> **`)
             .addFields({
                 name: `0 average based on 0 reviews.`,
                 value: '\u200B'
