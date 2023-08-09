@@ -397,9 +397,9 @@ client.on("messageReactionAdd", async (reaction, user) => { // COde by 约 - Wic
     if ((Math.round(avg_rating / 0.5) * 0.5) > 4) exampleEmbed.setColor('#04AA6D')
     await reaction.message.edit(exampleEmbed)
     await reaction.users.remove(user.id)
-}) //aurt#8400
+}) //Code by 约 - Wick
 
-client.login("Your_Bot_Token");
+client.login("Your_Bot_Token"); // your bot token here
 client.on('ready', () => {
     console.log('Bot is ready');
 	console.log('Code by 约 - Wick')
