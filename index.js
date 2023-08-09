@@ -103,7 +103,7 @@ client.on('message', async (message) => {
     }
 })
 //---------------------------------------------------------------------------
-client.on("messageReactionAdd", async (reaction, user) => { // COde by 约 - Wick
+client.on("messageReactionAdd", async (reaction, user) => { // Code by 约 - Wick
     if (user.partial) await user.fetch();
     if (reaction.partial) await reaction.fetch();
     if (reaction.message.partial) await reaction.message.fetch();
@@ -281,7 +281,7 @@ client.on("messageReactionAdd", async (reaction, user) => { // COde by 约 - Wic
     var _2star = Math.floor(Number(d._2stars));
     var _1star = Math.floor(Number(d._1stars));
     var maxVal = Math.max(_5star, _4star, _3star, _2star, _1star);
-    var max = 50 //طول الخط
+    var max = 50 // Line
     var _5star_wd = _5star * max / maxVal;
     var _4star_wd = _4star * max / maxVal;
     var _3star_wd = _3star * max / maxVal;
