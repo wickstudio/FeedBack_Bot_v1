@@ -399,7 +399,7 @@ client.on("messageReactionAdd", async (reaction, user) => { // COde by 约 - Wic
     await reaction.users.remove(user.id)
 }) //aurt#8400
 
-client.login("MTEzNjA4NjA4OTgxMjE2MDUzMg.G4pOE8.GNYuaJ_Ws7ARj-f0ZaZS8QaaKCoOpqa1KgTRNA");
+client.login("Your_Bot_Token");
 client.on('ready', () => {
     console.log('Bot is ready');
 	console.log('Code by 约 - Wick')
