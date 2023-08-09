@@ -1,2 +1,3 @@
-# FeedBack_Bot_v1
-Feedback discord bot with reactions v1
+Bot By 约 - Wick | Website : https://wickdev.xyz/
+
+#Discord FeedBack Bot With Reactions v1
